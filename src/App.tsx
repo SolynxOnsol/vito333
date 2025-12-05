@@ -1,6 +1,3 @@
-import { Sparkles, Mail, Phone, MapPin, Instagram, Facebook } from 'lucide-react';
-import Hero from './components/Hero';
-import Products from './components/Products';
 import Footer from './components/Footer';
 import ParticleBackground from './components/ParticleBackground';
 
@@ -10,7 +7,8 @@ function App() {
       <ParticleBackground />
 
       <div className="relative z-10">
-        <Hero />
+        {/* Main text (Hero) temporarily hidden */}
+        {/* <Hero /> */}
 
         <div className="mt-8">
           <video
@@ -26,7 +24,8 @@ function App() {
           </video>
         </div>
 
-        <Products />
+        {/* Products section temporarily hidden */}
+        {/* <Products /> */}
         <Footer />
       </div>
     </div>
