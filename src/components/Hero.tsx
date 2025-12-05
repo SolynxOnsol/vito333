@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="text-center space-y-8 relative z-10">
         <div className="inline-flex items-center gap-3 text-amber-400 mb-4">
           <Sparkles className="w-8 h-8 animate-pulse" />
-          <span className="text-sm tracking-[0.3em] uppercase font-light">Handcrafted Excellence</span>
+          <span className="text-sm tracking-[0.3em] uppercase font-light">The Master Teacher Has Arrived.</span>
           <Sparkles className="w-8 h-8 animate-pulse" />
         </div>
 
@@ -19,8 +19,11 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl md:text-2xl text-amber-200/80 font-light max-w-2xl mx-auto leading-relaxed">
-          Discover unique artisan creations that blend natural energy,
-          elegance, and craftsmanship
+          333 — The Triple Master Number. Not a guru on a stage. <p>Not a leader you follow. The invisible frequency behind the curtain.</p>
+        </p>
+
+        <p className="text-base md:text-lg text-amber-200/70 font-light max-w-3xl mx-auto leading-relaxed">
+          God Trickster: reality itself is the prank. <p>Shadow King: the permanent puppet master who never steps into the light — this is me. </p>Court Jester: the one who trolls the matrix while everyone else still believes the rules apply.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
@@ -32,8 +35,14 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-r from-amber-400 to-amber-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </button>
 
-          <button className="group relative px-8 py-4 border-2 border-amber-500/50 rounded-full font-semibold text-lg overflow-hidden transition-all duration-300 hover:border-amber-400 hover:shadow-[0_0_30px_rgba(251,191,36,0.4)]">
-            <span className="relative z-10">Contact Us</span>
+          <button
+            className="group relative px-8 py-4 border-2 border-amber-500/50 rounded-full font-semibold text-lg overflow-hidden transition-all duration-300 hover:border-amber-400 hover:shadow-[0_0_30px_rgba(251,191,36,0.4)]"
+            onClick={() => {
+              const footer = document.getElementById('contact-footer');
+              footer?.scrollIntoView({ behavior: 'smooth' });
+            }}
+          >
+            <span className="relative z-10">Contact Me</span>
             <div className="absolute inset-0 bg-amber-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </button>
         </div>

@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin, Instagram, Facebook, Sparkles } from 'lucide-react
 
 export default function Footer() {
   return (
-    <footer className="relative py-16 px-4 border-t border-amber-500/20">
+    <footer id="contact-footer" className="relative py-16 px-4 border-t border-amber-500/20">
       <div className="absolute inset-0 bg-gradient-to-t from-amber-900/5 to-transparent"></div>
 
       <div className="max-w-7xl mx-auto relative z-10">
@@ -13,7 +13,10 @@ export default function Footer() {
               VITO333
             </h3>
             <p className="text-amber-200/70 leading-relaxed">
-              Crafting unique pieces that bring beauty, energy, and elegance into your life.
+              I opted out long ago. Sigma by nature, untouchable by the usual hierarchies. I don&apos;t dominate the pack — I left the zoo.
+            </p>
+            <p className="text-amber-200/60 text-sm leading-relaxed">
+              If the 333 resonance pulled you here, you already know why you&apos;re not supposed to be reading this. Welcome to the edge that has no opposite.
             </p>
           </div>
 
@@ -44,7 +47,7 @@ export default function Footer() {
                 <div className="p-2 bg-amber-500/10 rounded-lg">
                   <MapPin className="w-5 h-5" />
                 </div>
-                <span>Your City, Country</span>
+                <span>Planet Nibiru</span>
               </div>
             </div>
           </div>
@@ -79,8 +82,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-amber-500/20 text-center text-amber-200/60 text-sm">
-          <p>&copy; 2025 VITO333. All rights reserved. Handcrafted with passion.</p>
+        <div className="pt-8 border-t border-amber-500/20 text-center text-amber-200/60 text-sm space-y-1">
+          <p>&copy; 2025 VITO333 — Shadow King | Trxter333333 | Permanent 333.</p>
+          <p>— Vitomir Čurin</p>
         </div>
       </div>
     </footer>
