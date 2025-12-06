@@ -12,7 +12,7 @@ function App() {
         {/* Main text (Hero) temporarily hidden */}
         {/* <Hero /> */}
 
-        <div className="mt-8">
+        <div className="mt-0">
           <video
             className="w-full aspect-video object-cover"
             autoPlay

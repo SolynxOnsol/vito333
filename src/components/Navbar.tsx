@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
               onClick={() => setIsProjectsOpen((prev) => !prev)}
             >
               <span className="tracking-[0.18em] uppercase text-[0.7rem] text-amber-200/90">
-                Projects
+                Choose Business
               </span>
               <span className={`transform transition-transform duration-200 text-amber-300 ${
                 isProjectsOpen ? 'rotate-180' : ''

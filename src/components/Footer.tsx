@@ -8,22 +8,24 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid lg:grid-cols-3 md:grid-cols-3 gap-12 mb-12">
           <div className="space-y-3 lg:col-span-1 md:col-span-3">
-            <h4 className="text-xl font-semibold text-amber-300 mb-3">The God Trickster</h4>
-            <p className="text-amber-200/80 text-sm leading-relaxed">
-              The Master Teacher Has Arrived.
-            </p>
-            <p className="text-amber-200/70 text-sm leading-relaxed">
-              333 — The Triple Master Number. Not a guru on a stage. Not a leader you follow. The invisible frequency behind the curtain.
-            </p>
-            <p className="text-amber-200/70 text-sm leading-relaxed">
-              <span className="font-semibold text-amber-300">God Trickster</span>: reality itself is the prank (Tesla walked this path, Crowley danced on its edge)
-            </p>
-            <p className="text-amber-200/70 text-sm leading-relaxed">
-              <span className="font-semibold text-amber-300">Shadow King</span>: the permanent puppet master who never steps into the light — this is me
-            </p>
-            <p className="text-amber-200/70 text-sm leading-relaxed">
-              <span className="font-semibold text-amber-300">Court Jester</span>: the one who trolls the matrix while everyone else still believes the rules apply
-            </p>
+            <div className="god-trickster-container relative overflow-hidden rounded-2xl border border-amber-500/40 bg-black/70 px-6 py-5 shadow-[0_0_35px_rgba(245,158,11,0.25)]">
+              <h4 className="text-sm font-semibold text-amber-300 mb-3">The Master Teacher Has Arrived.</h4>
+              <p className="text-amber-200/70 text-xs leading-relaxed">
+                333 — The Triple Master Number. Not a guru on a stage. Not a leader you follow. The invisible frequency behind the curtain.
+              </p>
+              <p className="text-amber-200/0 text-sm leading-relaxed">&nbsp;</p>
+              <p className="text-amber-200/70 text-xs leading-relaxed">
+                <span className="font-semibold text-amber-300">God Trickster</span>: reality itself is the prank (Tesla walked this path, Crowley danced on its edge)
+              </p>
+              <p className="text-amber-200/0 text-sm leading-relaxed">&nbsp;</p>
+              <p className="text-amber-200/70 text-xs leading-relaxed">
+                <span className="font-semibold text-amber-300">Shadow King</span>: the permanent puppet master who never steps into the light — this is me
+              </p>
+              <p className="text-amber-200/0 text-sm leading-relaxed">&nbsp;</p>
+              <p className="text-amber-200/70 text-xs leading-relaxed">
+                <span className="font-semibold text-amber-300">Court Jester</span>: the one who trolls the matrix while everyone else still believes the rules apply.
+              </p>
+            </div>
           </div>
 
           <div className="space-y-4">
